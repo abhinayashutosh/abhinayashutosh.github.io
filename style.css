@@ -47,35 +47,6 @@ p {
 	display: none;
 }
 
-.menu {
-	top: 0;
-	left: 0;
-	position: absolute;
-	background: transparent;
-	height: 75px;
-	width: 100%;
-	z-index: 10;
-}
-
-.menu_item {
-	margin: 30 0 30 30;
-	font-size: 14;
-	font-weight: 300;
-	display: inline-block;
-	text-decoration: none;
-	color: #FFF;
-	opacity: 1;
-}
-
-.menu_link {
-	margin: 30 30 30 0;
-	font-size: 14;
-	font-weight: 300;
-	display: inline-block;
-	color: #FFF;
-	text-decoration: none;
-}
-
 .social_container {
 	text-align: center;
 }
@@ -895,18 +866,6 @@ p {
 
 	    transform: rotate(-1.7791143522519746rad);
 	    transform-origin: 96.2% 35.3vw;
-	}
-
-	.menu {
-		display: none;
-	}
-
-	.menu_item {
-		display: none;
-	}
-
-	.menu_link {
-		display: none;
 	}
 
 	.featured_slope:nth-child(odd) .featured_content{
